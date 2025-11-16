@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - FinPay</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <div class="min-h-screen flex flex-col">
+        <!-- Header & Navigation (Consistent) -->
+        <header class="bg-white shadow-sm">
+            <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+                <!-- Logo -->
+                <a href="index.html" class="text-3xl font-bold text-blue-600">FinPay</a>
+
+                <!-- Desktop Navigation Links -->
+            <div class="hidden md:flex space-x-8">
+                <a href="products.html" class="text-gray-600 hover:text-blue-600">Products</a>
+                <a href="pricing.html" class="text-gray-600 hover:text-blue-600">Pricing</a>
+                <a href="billing.html" class="text-gray-600 hover:text-blue-600">Services</a>
+                <a href="about.html" class="text-gray-600 hover:text-blue-600">About Us</a>
+            </div>
+
+            <!-- CTA Buttons -->
+                <div class="flex items-center space-x-4">
+                    <a href="login.html" class="bg-blue-600 text-white px-5 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors">
+                        Login
+                    </a>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Sign Up Form Section -->
+        <main class="flex-grow flex items-center justify-center py-12 px-6">
+            <div class="w-full max-w-md p-8 bg-white rounded-2xl shadow-xl">
+                
+                <h2 class="text-3xl font-bold text-center text-gray-900 mb-8">
+                    Create your FinPay account
+                </h2>
+
+                <!-- Static Sign Up Form -->
+                <form action="#" method="POST">
+                    <div class="space-y-6">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700">Full Name</label>
+                            <input type="text" name="name" id="name" class="mt-2 block w-full rounded-lg border-gray-300 p-3 shadow-sm focus:ring-blue-500 focus:border-blue-500" placeholder="Shreyansh Rathaur">
+                        </div>
+
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                            <input type="email" name="email" id="email" class="mt-2 block w-full rounded-lg border-gray-300 p-3 shadow-sm focus:ring-blue-500 focus:border-blue-500" placeholder="you@example.com">
+                        </div>
+
+                        <div>
+                            <label for="mobile" class="block text-sm font-medium text-gray-700">Mobile Number</label>
+                            <input type="tel" name="mobile" id="mobile" class="mt-2 block w-full rounded-lg border-gray-300 p-3 shadow-sm focus:ring-blue-500 focus:border-blue-500" placeholder="+91 98765 43210">
+                        </div>
+
+                        <div>
+                            <label for="password" class="block text-sm font-medium text-gray-700">Password</label>
+                            <input type="password" name="password" id="password" class="mt-2 block w-full rounded-lg border-gray-300 p-3 shadow-sm focus:ring-blue-500 focus:border-blue-500" placeholder="••••••••">
+                        </div>
+
+                        <div>
+                            <!-- This button will be functional in Phase 2 -->
+                            <button type="submit" class="w-full flex justify-center py-3 px-4 border border-transparent rounded-lg shadow-sm text-lg font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors">
+                                Create Account
+                            </button>
+                        </div>
+                    </div>
+                </form>
+
+                <p class="mt-8 text-center text-sm text-gray-500">
+                    Already have an account?
+                    <a href="login.html" class="font-medium text-blue-600 hover:text-blue-500">
+                        Log in
+                    </a>
+                </p>
+            </div>
+        </main>
+    </div>
+
+</body>
+</html>

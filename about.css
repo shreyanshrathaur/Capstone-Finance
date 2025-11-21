@@ -1,0 +1,131 @@
+.about-hero {
+    background-color: #f3f4f6;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.about-hero-inner {
+    max-width: 56rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.about-hero-title {
+    font-size: 2.25rem;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .about-hero-title {
+        font-size: 3rem;
+    }
+}
+
+.about-hero-text {
+    font-size: 1.1rem;
+    color: #4b5563;
+}
+
+
+.about-story {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #ffffff;
+}
+
+.about-story-inner {
+    max-width: 48rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-story-title {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    color: #111827;
+    margin-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+    .about-story-title {
+        font-size: 2.5rem;
+    }
+}
+
+.about-story-text {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #374151;
+}
+
+.about-story-text p + p {
+    margin-top: 1rem;
+}
+
+
+.about-team {
+    background-color: #f3f4f6;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.about-team-title {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    color: #111827;
+    margin-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+    .about-team-title {
+        font-size: 2.5rem;
+    }
+}
+
+.team-grid {
+    display: grid;
+    gap: 3rem;
+    max-width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) {
+    .team-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+.team-card {
+    text-align: center;
+}
+
+.team-avatar {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 999px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    box-shadow: 0 15px 25px -10px rgba(0, 0, 0, 0.3);
+}
+
+.team-name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 0.25rem;
+}
+
+.team-role {
+    font-size: 0.95rem;
+    color: #2563eb;
+}

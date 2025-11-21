@@ -1,0 +1,119 @@
+.text-center {
+    text-align: center;
+}
+
+.stocks-section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #f9fafb;
+}
+
+.stocks-heading {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: #111827;
+    text-align: center;
+    margin-bottom: 0.75rem;
+}
+
+.stocks-subtitle {
+    font-size: 1rem;
+    color: #4b5563;
+    text-align: center;
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.5rem;
+}
+
+.stocks-grid {
+    display: grid;
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .stocks-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 1024px) {
+    .stocks-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
+
+.stock-card {
+    background-color: #ffffff;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08),
+                0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.stock-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.stock-name {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #111827;
+}
+
+.stock-tag {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 0.25rem 0.5rem;
+    border-radius: 999px;
+    background-color: #eff6ff;
+    color: #1d4ed8;
+}
+
+.stock-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.stock-label {
+    font-size: 0.875rem;
+    color: #6b7280;
+}
+
+.stock-value {
+    font-size: 0.975rem;
+    font-weight: 600;
+    color: #111827;
+}
+
+.stock-change {
+    font-size: 0.975rem;
+    font-weight: 600;
+}
+
+.stock-change-positive {
+    color: #16a34a;
+}
+
+.stock-change-negative {
+    color: #dc2626;
+}
+
+.stock-note {
+    margin-top: 0.75rem;
+    font-size: 0.875rem;
+    color: #4b5563;
+}
+
+
+.stocks-info-section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #ffffff;
+}

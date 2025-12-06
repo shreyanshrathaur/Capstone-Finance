@@ -3,33 +3,33 @@
 }
 
 .stocks-section {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 80px;
+    padding-bottom: 80px;
     background-color: rgb(31, 41, 55);
     color: #ffffff;
 }
 
 .stocks-heading {
-    font-size: 1.875rem;
+    font-size: 30px;
     font-weight: 700;
     color: #ffffff;
     text-align: center;
-    margin-bottom: 0.75rem;
+    margin-bottom: 12px;
 }
 
 .stocks-subtitle {
-    font-size: 1rem;
+    font-size: 16px;
     color: #ffffff;
     text-align: center;
-    max-width: 40rem;
+    max-width: 640px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 2.5rem;
+    margin-bottom: 40px;
 }
 
 .stocks-grid {
     display: grid;
-    gap: 2rem;
+    gap: 32px;
 }
 
 @media (min-width: 768px) {
@@ -46,8 +46,8 @@
 
 .stock-card {
     background-color: #ffffff;
-    border-radius: 0.75rem;
-    padding: 1.5rem;
+    border-radius: 12px;
+    padding: 24px;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08),
                 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
@@ -56,21 +56,21 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
 }
 
 .stock-name {
-    font-size: 1.125rem;
+    font-size: 18px;
     font-weight: 600;
     color: #111827;
 }
 
 .stock-tag {
-    font-size: 0.75rem;
+    font-size: 12px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.06em;
-    padding: 0.25rem 0.5rem;
+    padding: 4px 8px;
     border-radius: 999px;
     background-color: #eff6ff;
     color: #1d4ed8;
@@ -79,22 +79,22 @@
 .stock-row {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 0.5rem;
+    margin-bottom: 8px;
 }
 
 .stock-label {
-    font-size: 0.875rem;
+    font-size: 14px;
     color: #6b7280;
 }
 
 .stock-value {
-    font-size: 0.975rem;
+    font-size: 15.6px;
     font-weight: 600;
     color: #111827;
 }
 
 .stock-change {
-    font-size: 0.975rem;
+    font-size: 15.6px;
     font-weight: 600;
 }
 
@@ -107,14 +107,13 @@
 }
 
 .stock-note {
-    margin-top: 0.75rem;
-    font-size: 0.875rem;
+    margin-top: 12px;
+    font-size: 14px;
     color: #4b5563;
 }
 
-
 .stocks-info-section {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 80px;
+    padding-bottom: 80px;
     background-color: #ffffff;
 }

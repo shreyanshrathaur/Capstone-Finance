@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -59,7 +60,7 @@ button {
     gap: 2rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
     .nav-links-desktop {
         display: flex;
     }
@@ -88,7 +89,7 @@ button {
     gap: 1rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 100px) {
     .auth-links-desktop {
         display: flex;
     }
@@ -115,16 +116,6 @@ button {
     background-color: #1d4ed8;
 }
 
-.menu-button-mobile {
-    display: block;
-}
-
-@media (min-width: 768px) {
-    .menu-button-mobile {
-        display: none;
-    }
-}
-
 .menu-button {
     color: #1f2937;
 }
@@ -143,7 +134,7 @@ main {
     padding-bottom: 4rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
     .hero-section {
         padding-top: 6rem;
         padding-bottom: 6rem;
@@ -157,7 +148,7 @@ main {
     line-height: 1.25;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
     .hero-title {
         font-size: 3rem;
     }
@@ -173,23 +164,18 @@ main {
 }
 
 .feature-section-payments {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    background-color: #f9fafb;
-}
-
-.feature-section-investing {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 80px;
+    padding-bottom: 80px;
     background-color: #ffffff;
 }
 
-@media (min-width: 768px) {
-    .feature-section-payments, .feature-section-investing {
-        padding-top: 6rem;
-        padding-bottom: 6rem;
-    }
+.feature-section-investing {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #ffffff;
 }
+
+
 
 .feature-grid {
     display: grid;
@@ -197,7 +183,7 @@ main {
     align-items: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
     .feature-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
@@ -226,7 +212,7 @@ main {
     color: #111827;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
     .feature-title {
         font-size: 2.25rem;
     }
@@ -286,7 +272,7 @@ main {
     order: 1;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
     .order-2-md {
         order: 1;
     }
@@ -309,7 +295,7 @@ main {
     margin-bottom: 3rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
     .footer-grid-container {
         grid-template-columns: repeat(4, minmax(0, 1fr));
     }

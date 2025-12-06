@@ -158,6 +158,7 @@ a {
 .services-section {
     padding-top: 5rem;
     padding-bottom: 5rem;
+    background-color: rgb(31, 41, 55);
 }
 
 @media (min-width: 768px) {

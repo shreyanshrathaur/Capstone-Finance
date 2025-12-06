@@ -1,5 +1,5 @@
 .about-hero {
-    background-color: #f3f4f6;
+    background-color: #ffffff;
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
@@ -34,7 +34,7 @@
 .about-story {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: #ffffff;
+    background-color:rgb(31, 41, 55);
 }
 
 .about-story-inner {
@@ -47,7 +47,7 @@
     font-size: 2rem;
     font-weight: 700;
     text-align: center;
-    color: #111827;
+    color: #ffffff;
     margin-bottom: 3rem;
 }
 
@@ -60,7 +60,7 @@
 .about-story-text {
     font-size: 1.05rem;
     line-height: 1.7;
-    color: #374151;
+    color: #ffffff;
 }
 
 .about-story-text p + p {
@@ -69,7 +69,7 @@
 
 
 .about-team {
-    background-color: #f3f4f6;
+    background-color: #ffffff;
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
